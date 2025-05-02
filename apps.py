@@ -57,7 +57,7 @@ elif menu == "Search Books":
       st.dataframe(filtered_data)
 
     else:
-      st.warning(f"No hooks found matching {search_option}: {query}")
+      st.warning(f"No books found matching {search_option}: {query}")
 
 #Check out/return a book
 
